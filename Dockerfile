@@ -1,10 +1,10 @@
 FROM lsiobase/mono
-MAINTAINER sparklyballs
+MAINTAINER Afonso F<afonso.franca@gmail.com>
 
 # set version label
 ARG BUILD_DATE
 ARG VERSION
-LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
+LABEL build_version="Media Server version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 
 # set environment variables
 ARG DEBIAN_FRONTEND="noninteractive"
