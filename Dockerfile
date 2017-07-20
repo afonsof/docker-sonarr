@@ -1,4 +1,4 @@
-FROM lsiobase/mono
+FROM pomodo/rpi-mono:latest
 MAINTAINER Afonso F<afonso.franca@gmail.com>
 
 # set version label
